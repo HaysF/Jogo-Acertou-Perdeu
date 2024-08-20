@@ -4,7 +4,7 @@ class Program
 {
     static void Main()
     {
-        int numeroOculto = 7; // Número fixo para a versão básica
+        int numeroOculto = 7;
         int tentativa;
 
         Console.WriteLine("Bem-vindo ao jogo Acertou: Perdeu!");
@@ -17,7 +17,7 @@ class Program
         }
         else
         {
-            Console.WriteLine("Você errou! Fim de jogo.");
+            Console.WriteLine("Você perdeu! Fim de jogo.");
         }
     }
 }
